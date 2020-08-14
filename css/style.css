@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 70px;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.logo_emblema {
+  border-radius: 50%;
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin: 15px 0;
+  border: solid 2.5px transparent;
+  box-shadow: 2px 1000px 1px #fff inset;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  background-origin: border-box;
+}
+
+.menu a {
+  margin: 15px 0;
+  margin-left: 20px;
+}
+
+.button {
+  margin: 15px 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 17px;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-rendering: optimizeLegibility;
+  float: right;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  color: white;
+}
+
+.button:active {
+  padding: 7.5px 17.5px;
+  color: #BC9CFF;
+  border: solid 2.5px transparent;
+  box-shadow: 2px 1000px 1px #fff inset;
+  background-origin: border-box;
+}
+
+nav {
+  float: right;
+  margin-top: 22px;
+  margin-right: 20px;
+}
+
+.menuList {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.menuList li {
+  width: 80px;
+  height: 18px;
+  float: left;
+  display: block;
+}
+
+.menuList li a {
+  color: rgba(31, 32, 65, 0.5);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+}
+
+.menuList li a:hover {
+  font-weight: bold;
+}
