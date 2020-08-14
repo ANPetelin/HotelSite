@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel California</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="container clearfix">
             <div class="logo">
-                <div class="logo_emblema">
+                <div class="logo_emblema"><div class="logo_emblema2"></div>
                 </div>
             </div>
             <div class="menu">
@@ -24,7 +25,7 @@
                             <a href="#" class="link">О нас</a>
                         </li>
                         <li>
-                            <a href="#" class="link">Услуги</a>
+                            <a href="#" class="link">Услуги  <div class="arrow arrow-bottom"></div></a>
                         </li>
                         <li>
                             <a href="#" class="link">Вакансии</a>
@@ -33,7 +34,7 @@
                             <a href="#" class="link">Новости</a>
                         </li>
                         <li>
-                            <a href="#" class="link">Соглашения</a>
+                            <a href="#" class="link">Соглашения   <div class="arrow arrow-bottom"></div></a>
                         </li>
                     </ul>
                 </nav>               
@@ -42,7 +43,22 @@
     </header>
     <section>
         <div class="container clearfix">
-            <div class="div test"></div>
+            <div class="div test">
+                <h4>Text field</h4>
+                <div class="inputEmailBox" placeholder="Email">
+                    <input type="email" class = "inputEmail" placeholder="Email">
+                    <div class="arrowTwo emailArr"></div></div>                
+            </div>
+            <div class="arrow_full"></div>
+            <h4>Dropdown</h4>
+            <select class="numberOfGuests">
+                <option value="Взрослые"><div class="formNumOfGuests">Взрослые</div></option>
+                <option value="Дети"></option>
+                <option value=""></option>
+                <option value=""></option>                
+            </select>
+            <div class="arrowTwo"></div>
+            <a class = "button" href = "#">зарегистрироваться<div class="arrowTwo buttonArr"></div></a>
         </div>
     </section>
     <footer>
